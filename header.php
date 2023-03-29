@@ -21,7 +21,7 @@
             <div class="nav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="home.php">Home<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Discount</a>
@@ -41,26 +41,10 @@
                    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#staticBackdrop" data-bs-toggle="modal"data-target="#staticBackdrop">Contact Us</a>
+                    <a class="nav-link" href="userProfile.php" data-bs-toggle="modal"data-target="#staticBackdrop">Profile</a>
                    
                 </li>
-                <div class="modal fade staticBackdrop" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <li>
             </ul>
             </div>
