@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 <?php
 // put your code here
 require_once 'header.php';
-require_once 'footer.php';
+
 ?>
 <html>
     <head>
@@ -14,18 +14,13 @@ require_once 'footer.php';
         <title>Profile</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
         <link href="css/userProfile.css" rel="stylesheet" type="text/css"/>
-        <style>
-            body{
-                position: relative;
-                height: 1400px;
-            }
-           
-        </style>
+       
     </head>
-    <body>
+    <body style="display: grid; grid-template-columns: auto;">
+        <div class="body">
         <div class="profile-body">
         
-        <div class="row mb-5 gx-5">
+        <div class="">
             <!-- Contact detail -->
             <div class="col-xxl-8 mb-5 mb-xxl-0">
                 <div class="bg-secondary-soft px-4 py-5 rounded">
@@ -57,7 +52,7 @@ require_once 'footer.php';
 
                     </div> <!-- Row END -->
                     <div id="editbtn">
-                        <button type="button"  class="btn btn-primary btn-lg savebtn">Update profile</button>
+                        <button type="button"  class="btn btn-primary btn-lg savebtn" onclick="changeMessageProfile()">Update profile</button>
                     </div>
                     </form>
                 </div>
@@ -68,8 +63,7 @@ require_once 'footer.php';
         
         <div class="delivery-body">
 
-            <div class="row mb-5 gx-5">
-                <!-- Contact detail -->
+            <div class="">
                 <div class="col-xxl-8 mb-5 mb-xxl-0">
                     <div class="bg-secondary-soft px-4 py-5 rounded">
                         <form>
@@ -121,16 +115,22 @@ require_once 'footer.php';
 
                                 </select>
                                 </div>
-                            </div> <!-- Row END -->
+                            </div>
                             <div id="editDelivery">
-                                <button type="button"  class="btn btn-primary btn-lg editDelivery">Update Delivery Address</button>
+                                <button type="button"  class="btn btn-primary btn-lg editDelivery" onclick="changeMessageDelivery()">Update Delivery Address</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
 
-        </div>  
+        </div> 
+        </div>
+        <br />
+        <br/>
+        <?php
+        require_once 'footer.php';
+        ?>
         
     </body>
     <script>
@@ -191,5 +191,13 @@ require_once 'footer.php';
         $(this).attr('disabled', 'disabled');
         });
         });
+        
+        function changeMessageProfile() {
+        alert("Profile Information Change Successfully");
+        }
+        
+        function changeMessageDelivery() {
+        alert("Delivery Information Change Successfully");
+        }
     </script>
 </html>

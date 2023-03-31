@@ -5,6 +5,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 -->
 <?php
     require_once 'header.php';
+    
 ?>
 <html>
     <head>
@@ -15,7 +16,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             body{
                 position: relative;
             }
-           
+     
         </style>
     </head>
     <body>
@@ -41,12 +42,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        </div>
-        <div>
-            
-        </div>
-
+<!--            <div class="shopsBtnGrp">
+                <div class="men">
+                    <a href="userRegister.php" style="text-decoration: none;">Register Here</a>
+                </div>
+                <div class="women">
+                    <a href="userRegister.php" style="text-decoration: none;">Register Here</a>
+                </div>
+                <div class="kid">
+                    <a href="userRegister.php" style="text-decoration: none;">Register Here</a>
+                </div>
+            </div>-->
         
+        <div class="productVideo">
+            <video width="100%" height="100%" autoplay="autoplay" loop="true" muted defaultmuted>
+                <source src="video/homeVideo.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <a href="productMen.php" class="overlay-link" id="men" style="text-decoration: none;">Men</a>
+            <a href="#" class="overlay-link" id="women" style="text-decoration: none;">Women</a>
+            <a href="#" class="overlay-link" id="kid" style="text-decoration: none;">Kids</a>
+                
+        </div>
+        </div>
         <?php
         require_once 'footer.php';
         ?>

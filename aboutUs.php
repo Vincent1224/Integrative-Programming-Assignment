@@ -6,7 +6,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 -->
 <?php
 require_once 'header.php';
-require_once 'footer.php';
 ?>
     
 <html>
@@ -32,7 +31,7 @@ require_once 'footer.php';
             </table>
         </div>
         <?php
-        // put your code here
+        require_once 'footer.php';
         ?>
     </body>
 </html>

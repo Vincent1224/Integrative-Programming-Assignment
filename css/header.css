@@ -11,12 +11,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 }
 
 .nav{
-    width: 70%;
+    width: 40%;
 }
+
+.searchbtn{
+
+}
+
+.login-btn{
+    width: 30%;
+    text-align: right;
+    margin: auto;
+    border-radius: 8px;
+    margin-left: 23%;
+    text-align: center;
+    background-color: #504159;
+    width: 8%;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+}
+
+
+.login-btn a:hover{
+    background-color: #00203F;
+}
+
+.login-btn a:link {
+    color: whitesmoke;
+}
+
+.login-btn a:active {
+    color: whitesmoke;
+}
+
+.login-btn a:visited {
+    color: whitesmoke;
+}
+
+
 
 .search{
     width: 30%;
-    text-align: right;
+    text-align: left;
 }
 
 input[type=text], select {

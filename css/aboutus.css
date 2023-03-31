@@ -6,8 +6,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 21 Mar 2023, 2:42:46 pm
     Author     : ASUS
 */
-
+ 
 .abody{
     background-color: black;
 }
 
+#AboutPicture{
+    display: grid;
+    grid-template-columns: auto;
+    
+}

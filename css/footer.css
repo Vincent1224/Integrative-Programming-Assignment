@@ -7,14 +7,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : ASUS
 */
 
-.footer{
+footer{
   font-family: system-ui;
-  position: absolute;
-  left: 0;
   bottom: 0;
   width: 100%;
   color: white;
-  margin: 0;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .footer-container{
@@ -45,7 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 }
 
 .copyright{
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     margin: 0;
 }

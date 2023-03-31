@@ -25,7 +25,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             </div>
             <div class="copyright-container">
                     <p class="copyright">© 2023 Sweat Lab Sdn Bhd</p>
-                </div>
+            </div>
             
         </footer>
         <?php

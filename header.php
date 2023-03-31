@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="css/header.css" rel="stylesheet" type="text/css"/>
+    <script src="https://use.fontawesome.com/f9fd45026c.js"></script>
   </head>
   <body>
     
@@ -21,14 +22,11 @@
             <div class="nav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="home.php">Home<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Discount</a>
+                    <a class="nav-link" href="home.php"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Sports
+                        <i class="fa fa-tasks" aria-hidden="true"></i>&nbsp;Sports
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Men</a>
@@ -37,12 +35,15 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="AboutUs.php">Our Company</a>
+                    <a class="nav-link" href="AboutUs.php"><i class="fa fa-building" aria-hidden="true"></i>&nbsp;Our Company</a>
                    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="userProfile.php" data-bs-toggle="modal"data-target="#staticBackdrop">Profile</a>
+                    <a class="nav-link" href="userProfile.php" data-bs-toggle="modal"data-target="#staticBackdrop"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Profile</a>
                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Cart</a>
                 </li>
                
                 <li>
@@ -50,9 +51,15 @@
             </div>
             <div class="search">
             <form class="form-inline my-2 my-lg-0" id="search-form">
+                <div  style="padding-bottom: 10px" >
                 <input type="text" placeholder="Search" >
-                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+                
+                <button class="btn btn-outline-success my-2 my-sm-0 searchbtn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
             </form>
+            </div>
+            <div class="login-btn">
+                <a href="login.php" style="text-decoration: none;">Login</a>
             </div>
         </div>
     </nav>

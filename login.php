@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Login Page</title>
         <script src="https://use.fontawesome.com/f9fd45026c.js"></script>
         <link href="css/login.css" rel="stylesheet" type="text/css"/>
         <link href="Css/Login.css" rel="stylesheet" />
