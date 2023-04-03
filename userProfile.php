@@ -135,7 +135,7 @@ require_once 'header.php';
     </body>
     <script>
         //profile
-        $(document).ready(function () {
+        $(document).ready(function() {
         //Disable Save Button On Page Load
         $(".savebtn").attr('disabled', 'disabled');
 
