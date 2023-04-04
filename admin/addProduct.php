@@ -53,27 +53,32 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                         <div class="row">
                             
                             <!-- Content Column -->
-                            <div class="col-lg-6 mb-4">
+                            <div class="col-lg-12 mb-4">
                                 <form>
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
                                         <h6 class="m-0 font-weight-bold text-primary">New Products</h6>
                                     </div>
                                     <div class="card-body">
-                                        <div>
+                                        <div class="col-lg-3">
                                         <h4 class="small font-weight-bold">Product ID 
                                             <span class="float-right"></span></h4>
-                                                <input type="text" class="form-control" placeholder="C001" disabled> <br/>
+                                                <input type="text" class="form-control" placeholder="C001" disabled>
+                                                <h4 class="small font-weight-bold">Select Image
+                                                    <span class="float-right"></span></h4>
+                                                <input class="form-control" type="file" id="formFile">
                                         </div> 
+                                        <br />
                                         <div>
                                         <h4 class="small font-weight-bold">Product Name 
                                             <span class="float-right"></span></h4>
                                                 <input type="text" class="form-control"> <br/>
                                         </div> 
-                                        <div>
-                                        <h4 class="small font-weight-bold">Product Price 
-                                            <span class="float-right"></span></h4>
-                                                <input type="text" class="form-control"> <br/>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">RM</span>
+                                            </div>
+                                            <input type="number" class="form-control" aria-label="price" aria-describedby="basic-addon1">
                                         </div>
                                         <div>
                                         <h4 class="small font-weight-bold">Quantity
@@ -94,73 +99,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                                     
                                 </div>
                                 </form>
-                                <!-- Color System -->
-                                <div class="row">
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-primary text-white shadow">
-                                            <div class="card-body">
-                                                Primary
-                                                <div class="text-white-50 small">#4e73df</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-success text-white shadow">
-                                            <div class="card-body">
-                                                Success
-                                                <div class="text-white-50 small">#1cc88a</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-info text-white shadow">
-                                            <div class="card-body">
-                                                Info
-                                                <div class="text-white-50 small">#36b9cc</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-warning text-white shadow">
-                                            <div class="card-body">
-                                                Warning
-                                                <div class="text-white-50 small">#f6c23e</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-danger text-white shadow">
-                                            <div class="card-body">
-                                                Danger
-                                                <div class="text-white-50 small">#e74a3b</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-secondary text-white shadow">
-                                            <div class="card-body">
-                                                Secondary
-                                                <div class="text-white-50 small">#858796</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-light text-black shadow">
-                                            <div class="card-body">
-                                                Light
-                                                <div class="text-black-50 small">#f8f9fc</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="card bg-dark text-white shadow">
-                                            <div class="card-body">
-                                                Dark
-                                                <div class="text-white-50 small">#5a5c69</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
 
                             </div>
                        

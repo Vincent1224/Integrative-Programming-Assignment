@@ -7,8 +7,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : ASUS
 */
 
-.home-body{
+/*.home-body{
     height: 1470px;
+}*/
+.home-body {
+  min-height: 100vh;
 }
 
 .productVideo{
